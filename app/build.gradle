@@ -87,5 +87,6 @@ dependencies {
     androidTestImplementation "com.google.truth:truth:1.0"
     implementation "androidx.room:room-runtime:2.2.2"
     annotationProcessor "androidx.room:room-compiler:2.2.2"
-    implementation files('libs/all-fmmr.aar')
+    implementation 'com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.15'
+    implementation 'com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.15'
 }
